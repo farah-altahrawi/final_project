@@ -76,7 +76,7 @@ export default function Checkout() {
   }, [cartItems]);*/
 
   return (
-    <div>
+    <div className="mb-5">
       
       <h1 className="text-center p-5">Checkout</h1>
 
