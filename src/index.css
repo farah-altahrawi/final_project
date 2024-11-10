@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+:root {
+    --primary-color2: #FF6B55;
+    --primary-color3: #F46F30;
+    --gradient-color: linear-gradient(90deg, #F86CA7 0%, #FF7F18 100%);
+    --title-color1: #001D23;
+    --title-color2: #253D4E;
+    --text-color1: #8A8A8A;
+    --text-color2: #1F2124;
+    --text-color3: #62686E;
+    --text-color4: #4F4F4F;
+    --change-nav-color: #9c4368d8;
+    --payment-terms-background-color: rgb(143 133 121);
+    --gradient-background: #8f8579;
+    --white: #ffffff;
+    --btn-color:#599aa2;
+    --main-color: #2c622c;
+    --link-color: #234923;
+    --text-color: #222;
+    --hover-color: #234923;
+    --decline-color: #f6f6f6;
+    --decline-text: #000;
+    --decline-hover: #dddddd;
+    --footer-background: #f6f6f6;
+    --font-dosis: "Dosis", sans-serif;
+    --font-cabin: "Cabin", sans-serif;
+
+}
+body {
+    font-family: var(--font-dosis);
+    color: var(--text-color1);
+    background-color: #fbfbfb !important;
+    font-size: 20px;
+}
+.btn1{
+    background-color: var(--gradient-background);
+    border-color: #6b6b6bda;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn1:hover {
+    background-color: #df5426e3; 
+    color: #ffffff; 
+  }
+.bg-color{
+    background-color: #4b7c4b5b;
+}
